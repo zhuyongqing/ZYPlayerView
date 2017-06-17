@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6F2FFB1EF54BCB0071FD09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6F2FFA1EF54BCB0071FD09 /* main.m */; };
+		EF6F2FFE1EF54BCB0071FD09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6F2FFD1EF54BCB0071FD09 /* AppDelegate.m */; };
+		EF6F30011EF54BCB0071FD09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6F30001EF54BCB0071FD09 /* ViewController.m */; };
+		EF6F30041EF54BCB0071FD09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6F30021EF54BCB0071FD09 /* Main.storyboard */; };
+		EF6F30061EF54BCB0071FD09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6F30051EF54BCB0071FD09 /* Assets.xcassets */; };
+		EF6F30091EF54BCB0071FD09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6F30071EF54BCB0071FD09 /* LaunchScreen.storyboard */; };
+		EF6F30141EF54BCB0071FD09 /* ZYPlayerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6F30131EF54BCB0071FD09 /* ZYPlayerViewTests.m */; };
+		EF6F301F1EF54BCB0071FD09 /* ZYPlayerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6F301E1EF54BCB0071FD09 /* ZYPlayerViewUITests.m */; };
+		EF6F30321EF54C150071FD09 /* ZYPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6F30311EF54C150071FD09 /* ZYPlayerView.m */; };
+		EF6F30341EF550740071FD09 /* play.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EF6F30331EF550740071FD09 /* play.mp4 */; };
+		EF6F30371EF5513D0071FD09 /* ZYGlKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6F30361EF5513D0071FD09 /* ZYGlKImageView.m */; };
+		EF6F303A1EF553F90071FD09 /* ZYFilterTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6F30391EF553F90071FD09 /* ZYFilterTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF6F30101EF54BCB0071FD09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6F2FEE1EF54BCB0071FD09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6F2FF51EF54BCB0071FD09;
+			remoteInfo = ZYPlayerView;
+		};
+		EF6F301B1EF54BCB0071FD09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6F2FEE1EF54BCB0071FD09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6F2FF51EF54BCB0071FD09;
+			remoteInfo = ZYPlayerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6F2FF61EF54BCB0071FD09 /* ZYPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6F2FFA1EF54BCB0071FD09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF6F2FFC1EF54BCB0071FD09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF6F2FFD1EF54BCB0071FD09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF6F2FFF1EF54BCB0071FD09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF6F30001EF54BCB0071FD09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF6F30031EF54BCB0071FD09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF6F30051EF54BCB0071FD09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6F30081EF54BCB0071FD09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF6F300A1EF54BCB0071FD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6F300F1EF54BCB0071FD09 /* ZYPlayerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYPlayerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6F30131EF54BCB0071FD09 /* ZYPlayerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPlayerViewTests.m; sourceTree = "<group>"; };
+		EF6F30151EF54BCB0071FD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6F301A1EF54BCB0071FD09 /* ZYPlayerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYPlayerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6F301E1EF54BCB0071FD09 /* ZYPlayerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPlayerViewUITests.m; sourceTree = "<group>"; };
+		EF6F30201EF54BCB0071FD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6F30301EF54C150071FD09 /* ZYPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPlayerView.h; sourceTree = "<group>"; };
+		EF6F30311EF54C150071FD09 /* ZYPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPlayerView.m; sourceTree = "<group>"; };
+		EF6F30331EF550740071FD09 /* play.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = play.mp4; sourceTree = "<group>"; };
+		EF6F30351EF5513D0071FD09 /* ZYGlKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGlKImageView.h; sourceTree = "<group>"; };
+		EF6F30361EF5513D0071FD09 /* ZYGlKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGlKImageView.m; sourceTree = "<group>"; };
+		EF6F30381EF553F90071FD09 /* ZYFilterTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFilterTool.h; sourceTree = "<group>"; };
+		EF6F30391EF553F90071FD09 /* ZYFilterTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFilterTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF6F2FF31EF54BCB0071FD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6F300C1EF54BCB0071FD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6F30171EF54BCB0071FD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF6F2FED1EF54BCB0071FD09 = {
+			isa = PBXGroup;
+			children = (
+				EF6F2FF81EF54BCB0071FD09 /* ZYPlayerView */,
+				EF6F30121EF54BCB0071FD09 /* ZYPlayerViewTests */,
+				EF6F301D1EF54BCB0071FD09 /* ZYPlayerViewUITests */,
+				EF6F2FF71EF54BCB0071FD09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6F2FF71EF54BCB0071FD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F2FF61EF54BCB0071FD09 /* ZYPlayerView.app */,
+				EF6F300F1EF54BCB0071FD09 /* ZYPlayerViewTests.xctest */,
+				EF6F301A1EF54BCB0071FD09 /* ZYPlayerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6F2FF81EF54BCB0071FD09 /* ZYPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F30331EF550740071FD09 /* play.mp4 */,
+				EF6F302F1EF54C150071FD09 /* ZYPlayer */,
+				EF6F2FFC1EF54BCB0071FD09 /* AppDelegate.h */,
+				EF6F2FFD1EF54BCB0071FD09 /* AppDelegate.m */,
+				EF6F2FFF1EF54BCB0071FD09 /* ViewController.h */,
+				EF6F30001EF54BCB0071FD09 /* ViewController.m */,
+				EF6F30021EF54BCB0071FD09 /* Main.storyboard */,
+				EF6F30051EF54BCB0071FD09 /* Assets.xcassets */,
+				EF6F30071EF54BCB0071FD09 /* LaunchScreen.storyboard */,
+				EF6F300A1EF54BCB0071FD09 /* Info.plist */,
+				EF6F2FF91EF54BCB0071FD09 /* Supporting Files */,
+			);
+			path = ZYPlayerView;
+			sourceTree = "<group>";
+		};
+		EF6F2FF91EF54BCB0071FD09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F2FFA1EF54BCB0071FD09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF6F30121EF54BCB0071FD09 /* ZYPlayerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F30131EF54BCB0071FD09 /* ZYPlayerViewTests.m */,
+				EF6F30151EF54BCB0071FD09 /* Info.plist */,
+			);
+			path = ZYPlayerViewTests;
+			sourceTree = "<group>";
+		};
+		EF6F301D1EF54BCB0071FD09 /* ZYPlayerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F301E1EF54BCB0071FD09 /* ZYPlayerViewUITests.m */,
+				EF6F30201EF54BCB0071FD09 /* Info.plist */,
+			);
+			path = ZYPlayerViewUITests;
+			sourceTree = "<group>";
+		};
+		EF6F302F1EF54C150071FD09 /* ZYPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F30301EF54C150071FD09 /* ZYPlayerView.h */,
+				EF6F30311EF54C150071FD09 /* ZYPlayerView.m */,
+				EF6F30351EF5513D0071FD09 /* ZYGlKImageView.h */,
+				EF6F30361EF5513D0071FD09 /* ZYGlKImageView.m */,
+				EF6F30381EF553F90071FD09 /* ZYFilterTool.h */,
+				EF6F30391EF553F90071FD09 /* ZYFilterTool.m */,
+			);
+			path = ZYPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6F2FF51EF54BCB0071FD09 /* ZYPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6F30231EF54BCB0071FD09 /* Build configuration list for PBXNativeTarget "ZYPlayerView" */;
+			buildPhases = (
+				EF6F2FF21EF54BCB0071FD09 /* Sources */,
+				EF6F2FF31EF54BCB0071FD09 /* Frameworks */,
+				EF6F2FF41EF54BCB0071FD09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYPlayerView;
+			productName = ZYPlayerView;
+			productReference = EF6F2FF61EF54BCB0071FD09 /* ZYPlayerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF6F300E1EF54BCB0071FD09 /* ZYPlayerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6F30261EF54BCB0071FD09 /* Build configuration list for PBXNativeTarget "ZYPlayerViewTests" */;
+			buildPhases = (
+				EF6F300B1EF54BCB0071FD09 /* Sources */,
+				EF6F300C1EF54BCB0071FD09 /* Frameworks */,
+				EF6F300D1EF54BCB0071FD09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6F30111EF54BCB0071FD09 /* PBXTargetDependency */,
+			);
+			name = ZYPlayerViewTests;
+			productName = ZYPlayerViewTests;
+			productReference = EF6F300F1EF54BCB0071FD09 /* ZYPlayerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF6F30191EF54BCB0071FD09 /* ZYPlayerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6F30291EF54BCB0071FD09 /* Build configuration list for PBXNativeTarget "ZYPlayerViewUITests" */;
+			buildPhases = (
+				EF6F30161EF54BCB0071FD09 /* Sources */,
+				EF6F30171EF54BCB0071FD09 /* Frameworks */,
+				EF6F30181EF54BCB0071FD09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6F301C1EF54BCB0071FD09 /* PBXTargetDependency */,
+			);
+			name = ZYPlayerViewUITests;
+			productName = ZYPlayerViewUITests;
+			productReference = EF6F301A1EF54BCB0071FD09 /* ZYPlayerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6F2FEE1EF54BCB0071FD09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhuyongqing;
+				TargetAttributes = {
+					EF6F2FF51EF54BCB0071FD09 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = EPF5B683Z9;
+						ProvisioningStyle = Automatic;
+					};
+					EF6F300E1EF54BCB0071FD09 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = EPF5B683Z9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF6F2FF51EF54BCB0071FD09;
+					};
+					EF6F30191EF54BCB0071FD09 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = EPF5B683Z9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF6F2FF51EF54BCB0071FD09;
+					};
+				};
+			};
+			buildConfigurationList = EF6F2FF11EF54BCB0071FD09 /* Build configuration list for PBXProject "ZYPlayerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6F2FED1EF54BCB0071FD09;
+			productRefGroup = EF6F2FF71EF54BCB0071FD09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6F2FF51EF54BCB0071FD09 /* ZYPlayerView */,
+				EF6F300E1EF54BCB0071FD09 /* ZYPlayerViewTests */,
+				EF6F30191EF54BCB0071FD09 /* ZYPlayerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF6F2FF41EF54BCB0071FD09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6F30091EF54BCB0071FD09 /* LaunchScreen.storyboard in Resources */,
+				EF6F30341EF550740071FD09 /* play.mp4 in Resources */,
+				EF6F30061EF54BCB0071FD09 /* Assets.xcassets in Resources */,
+				EF6F30041EF54BCB0071FD09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6F300D1EF54BCB0071FD09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6F30181EF54BCB0071FD09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF6F2FF21EF54BCB0071FD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6F303A1EF553F90071FD09 /* ZYFilterTool.m in Sources */,
+				EF6F30371EF5513D0071FD09 /* ZYGlKImageView.m in Sources */,
+				EF6F30321EF54C150071FD09 /* ZYPlayerView.m in Sources */,
+				EF6F30011EF54BCB0071FD09 /* ViewController.m in Sources */,
+				EF6F2FFE1EF54BCB0071FD09 /* AppDelegate.m in Sources */,
+				EF6F2FFB1EF54BCB0071FD09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6F300B1EF54BCB0071FD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6F30141EF54BCB0071FD09 /* ZYPlayerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6F30161EF54BCB0071FD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6F301F1EF54BCB0071FD09 /* ZYPlayerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF6F30111EF54BCB0071FD09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6F2FF51EF54BCB0071FD09 /* ZYPlayerView */;
+			targetProxy = EF6F30101EF54BCB0071FD09 /* PBXContainerItemProxy */;
+		};
+		EF6F301C1EF54BCB0071FD09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6F2FF51EF54BCB0071FD09 /* ZYPlayerView */;
+			targetProxy = EF6F301B1EF54BCB0071FD09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF6F30021EF54BCB0071FD09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6F30031EF54BCB0071FD09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF6F30071EF54BCB0071FD09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6F30081EF54BCB0071FD09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF6F30211EF54BCB0071FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF6F30221EF54BCB0071FD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF6F30241EF54BCB0071FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPF5B683Z9;
+				INFOPLIST_FILE = ZYPlayerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z.com.ZYPlayerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF6F30251EF54BCB0071FD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPF5B683Z9;
+				INFOPLIST_FILE = ZYPlayerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z.com.ZYPlayerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF6F30271EF54BCB0071FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EPF5B683Z9;
+				INFOPLIST_FILE = ZYPlayerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z.com.ZYPlayerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYPlayerView.app/ZYPlayerView";
+			};
+			name = Debug;
+		};
+		EF6F30281EF54BCB0071FD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EPF5B683Z9;
+				INFOPLIST_FILE = ZYPlayerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z.com.ZYPlayerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYPlayerView.app/ZYPlayerView";
+			};
+			name = Release;
+		};
+		EF6F302A1EF54BCB0071FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EPF5B683Z9;
+				INFOPLIST_FILE = ZYPlayerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z.com.ZYPlayerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYPlayerView;
+			};
+			name = Debug;
+		};
+		EF6F302B1EF54BCB0071FD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EPF5B683Z9;
+				INFOPLIST_FILE = ZYPlayerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.z.com.ZYPlayerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYPlayerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF6F2FF11EF54BCB0071FD09 /* Build configuration list for PBXProject "ZYPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6F30211EF54BCB0071FD09 /* Debug */,
+				EF6F30221EF54BCB0071FD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6F30231EF54BCB0071FD09 /* Build configuration list for PBXNativeTarget "ZYPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6F30241EF54BCB0071FD09 /* Debug */,
+				EF6F30251EF54BCB0071FD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF6F30261EF54BCB0071FD09 /* Build configuration list for PBXNativeTarget "ZYPlayerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6F30271EF54BCB0071FD09 /* Debug */,
+				EF6F30281EF54BCB0071FD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF6F30291EF54BCB0071FD09 /* Build configuration list for PBXNativeTarget "ZYPlayerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6F302A1EF54BCB0071FD09 /* Debug */,
+				EF6F302B1EF54BCB0071FD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6F2FEE1EF54BCB0071FD09 /* Project object */;
+}
